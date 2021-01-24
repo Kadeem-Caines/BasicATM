@@ -2,19 +2,19 @@ import java.lang.Math;
 
 public class Account {
 
-    private int accountNumber;
+    private String accountNumber;
     private int pin;
     private int balance;
     private String accountHolder;
 
-    public Account(int accountNumber, int pin, String accountHolder){
+    public Account(String accountNumber, int pin, String accountHolder){
         this.accountNumber=accountNumber;
         this.pin=pin;
         this.accountHolder=accountHolder;
         this.balance=0;
     }
 
-    public int getAccountNumber(){
+    public String getAccountNumber(){
         return this.accountNumber;
     }
 
@@ -38,4 +38,11 @@ public class Account {
         return accountHolder;
     }
 
+    public void setPin(int pin){
+        this.pin=pin;
+    }
+
+    public void setAccountNumber(String accountNumber){
+        this.accountNumber=accountNumber;
+    }
 }
