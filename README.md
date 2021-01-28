@@ -1,7 +1,7 @@
 # BasicATM
-Basic Java program showcasing basic functions of a bank ATM
+This is a Basic Java console program showcasing basic functions of a bank's ATM
 
-To run Program on windows
+## Installation
 
 1.Download "BasicATM.jar" file from the out/artifacts/BasicATM_jar folder
 
@@ -10,4 +10,11 @@ To run Program on windows
 3.type "cd"  and the file path of where you downloaded the jar
 
 4.type "java -jar BasicATM.jar"
+
+
+
+## Screenshots
+
+![websiteScreenshot](Capture.JPG)
+
 
